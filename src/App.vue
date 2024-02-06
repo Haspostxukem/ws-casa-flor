@@ -1,13 +1,14 @@
 <template>
-  
-  
-<p>Casa Flor</p>  
-  
+  <MenuTop></MenuTop>
 </template>
 
 <script>
+import MenuTop from "./components/MenuTop.vue";
 export default {
   name: "App",
+  components: {
+    MenuTop,
+  },
 };
 </script>
 
@@ -18,6 +19,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0;
+}
+
+div {
+  display: flex;
 }
 </style>
