@@ -2,7 +2,7 @@
   <MenuTop></MenuTop>
   <BannerTop></BannerTop>
 
-  <p>aaaaaaaaaaaaaaaa</p>
+  <p>aaaaaaaaaaaaaaabbbbbbbbbbbbb</p>
 </template>
 
 <script>
